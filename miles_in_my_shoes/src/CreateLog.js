@@ -37,7 +37,7 @@ class CreateLog extends Component {
             this.props.history.push('/');
         })
         .catch(err => {
-            console.log("Erroe in CreateLog!");
+            console.log("Error in CreateLog!");
         })
     };
 
